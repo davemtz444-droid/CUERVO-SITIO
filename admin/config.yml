@@ -1,0 +1,34 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "clients"
+    label: "Clientes"
+    files:
+      - file: "content/clients.json"
+        label: "Lista de Clientes"
+        name: "clients"
+        fields:
+          - {label: "Clientes", name: "clients", widget: "list", label_singular: "Cliente", fields: [
+              {label: "Nombre", name: "name", widget: "string"},
+              {label: "Foto", name: "photo", widget: "image", required: false, choose_url: false},
+            ]}
+
+  - name: "projects"
+    label: "Proyectos"
+    files:
+      - file: "content/projects.json"
+        label: "Lista de Proyectos"
+        name: "projects"
+        fields:
+          - {label: "Proyectos", name: "projects", widget: "list", label_singular: "Proyecto", fields: [
+              {label: "Nombre", name: "name", widget: "string"},
+              {label: "Tipo", name: "type", widget: "select", options: ["Festival", "Show", "Tour", "Otro"], default: "Festival"},
+              {label: "Ubicación", name: "loc", widget: "string", required: false, hint: "Ej. Monterrey, MX"},
+              {label: "Año", name: "year", widget: "string", required: false},
+              {label: "Foto", name: "photo", widget: "image", required: false, choose_url: false},
+            ]}

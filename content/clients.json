@@ -1,0 +1,18 @@
+{
+  "clients": [
+    {"name": "Ocesa", "photo": ""},
+    {"name": "Live Nation", "photo": ""},
+    {"name": "Apodaca Group", "photo": ""},
+    {"name": "FIFA World Cup", "photo": ""},
+    {"name": "Insomniac", "photo": ""},
+    {"name": "Blu Mar Events", "photo": ""},
+    {"name": "Serca Music", "photo": ""},
+    {"name": "PrimeTime México", "photo": ""},
+    {"name": "Tigres Del Norte", "photo": ""},
+    {"name": "Caifanes", "photo": ""},
+    {"name": "Manuel Turizo", "photo": ""},
+    {"name": "Grupo La Leyenda", "photo": ""},
+    {"name": "Los Herederos De Nuevo León", "photo": ""},
+    {"name": "El Malilla", "photo": ""}
+  ]
+}
