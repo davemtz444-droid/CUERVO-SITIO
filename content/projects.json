@@ -1,20 +1,116 @@
 {
   "projects": [
-    {"name": "FIFA Fan Festival 2026", "type": "Festival", "loc": "", "year": "2026", "photo": ""},
-    {"name": "Tecate Pa'l Norte", "type": "Festival", "loc": "Monterrey, MX", "year": "", "photo": ""},
-    {"name": "EDC México", "type": "Festival", "loc": "CDMX, MX", "year": "", "photo": ""},
-    {"name": "Corona Capital", "type": "Festival", "loc": "CDMX, MX", "year": "", "photo": ""},
-    {"name": "Machaka Festival", "type": "Festival", "loc": "", "year": "", "photo": ""},
-    {"name": "Nortex Festival", "type": "Festival", "loc": "", "year": "", "photo": ""},
-    {"name": "Duck Fest", "type": "Festival", "loc": "", "year": "", "photo": ""},
-    {"name": "Tecate Emblema", "type": "Festival", "loc": "CDMX, MX", "year": "", "photo": ""},
-    {"name": "Pulso GNP", "type": "Festival", "loc": "", "year": "", "photo": ""},
-    {"name": "Festival Vaivén", "type": "Festival", "loc": "", "year": "", "photo": ""},
-    {"name": "Live Out Festival", "type": "Festival", "loc": "Monterrey, MX", "year": "", "photo": ""},
-    {"name": "Zamna Festival", "type": "Festival", "loc": "", "year": "", "photo": ""},
-    {"name": "Glory Nights", "type": "Show", "loc": "", "year": "", "photo": ""},
-    {"name": "Beyond Wonderland", "type": "Festival", "loc": "Monterrey, MX", "year": "", "photo": ""},
-    {"name": "Stars & Stripes", "type": "Show", "loc": "", "year": "", "photo": ""},
-    {"name": "BTB Belize Music Festival", "type": "Festival", "loc": "Belize", "year": "", "photo": ""}
+    {
+      "name": "FIFA Fan Festival 2026",
+      "type": "Festival",
+      "loc": "GUADALAJARA",
+      "year": "2026",
+      "photo": "/images/uploads/whatsapp-image-2026-07-29-at-6.00.36-pm.jpeg"
+    },
+    {
+      "name": "Tecate Pa'l Norte",
+      "type": "Festival",
+      "loc": "Monterrey, MX",
+      "year": "",
+      "photo": ""
+    },
+    {
+      "name": "EDC México",
+      "type": "Festival",
+      "loc": "CDMX, MX",
+      "year": "",
+      "photo": ""
+    },
+    {
+      "name": "Corona Capital",
+      "type": "Festival",
+      "loc": "CDMX, MX",
+      "year": "",
+      "photo": ""
+    },
+    {
+      "name": "Machaka Festival",
+      "type": "Festival",
+      "loc": "",
+      "year": "",
+      "photo": ""
+    },
+    {
+      "name": "Nortex Festival",
+      "type": "Festival",
+      "loc": "",
+      "year": "",
+      "photo": ""
+    },
+    {
+      "name": "Duck Fest",
+      "type": "Festival",
+      "loc": "",
+      "year": "",
+      "photo": ""
+    },
+    {
+      "name": "Tecate Emblema",
+      "type": "Festival",
+      "loc": "CDMX, MX",
+      "year": "",
+      "photo": ""
+    },
+    {
+      "name": "Pulso GNP",
+      "type": "Festival",
+      "loc": "",
+      "year": "",
+      "photo": ""
+    },
+    {
+      "name": "Festival Vaivén",
+      "type": "Festival",
+      "loc": "",
+      "year": "",
+      "photo": ""
+    },
+    {
+      "name": "Live Out Festival",
+      "type": "Festival",
+      "loc": "Monterrey, MX",
+      "year": "",
+      "photo": ""
+    },
+    {
+      "name": "Zamna Festival",
+      "type": "Festival",
+      "loc": "",
+      "year": "",
+      "photo": ""
+    },
+    {
+      "name": "Glory Nights",
+      "type": "Show",
+      "loc": "",
+      "year": "",
+      "photo": ""
+    },
+    {
+      "name": "Beyond Wonderland",
+      "type": "Festival",
+      "loc": "Monterrey, MX",
+      "year": "",
+      "photo": ""
+    },
+    {
+      "name": "Stars & Stripes",
+      "type": "Show",
+      "loc": "",
+      "year": "",
+      "photo": ""
+    },
+    {
+      "name": "BTB Belize Music Festival",
+      "type": "Festival",
+      "loc": "Belize",
+      "year": "",
+      "photo": ""
+    }
   ]
 }
