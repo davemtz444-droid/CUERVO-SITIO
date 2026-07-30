@@ -3,16 +3,23 @@
     {
       "name": "FIFA Fan Festival 2026",
       "type": "Festival",
-      "loc": "",
+      "loc": "Guadalajara, Guadalajara, Mx",
       "year": "2026",
-      "photos": []
+      "photos": [
+        "/images/uploads/whatsapp-image-2026-07-29-at-6.00.36-pm.jpeg",
+        "/images/uploads/whatsapp-image-2026-07-29-at-6.00.36-pm-3-.jpeg",
+        "/images/uploads/whatsapp-image-2026-07-29-at-6.00.37-pm-6-.jpeg"
+      ]
     },
     {
       "name": "Tecate Pa'l Norte",
       "type": "Festival",
-      "loc": "Monterrey, MX",
-      "year": "",
-      "photos": []
+      "loc": "Monterrey, Nuevo León",
+      "year": "2026",
+      "photos": [
+        "/images/uploads/499723761_18042091250552897_3405706136536061643_n.jpg",
+        "/images/uploads/499993884_18042091205552897_1645207143665946351_n.jpg"
+      ]
     },
     {
       "name": "EDC México",
