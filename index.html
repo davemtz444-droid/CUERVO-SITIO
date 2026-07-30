@@ -395,6 +395,11 @@
     color:var(--muted);font-family:'Space Mono',monospace;font-size:9.5px;letter-spacing:0.06em;
     text-transform:uppercase;text-align:center;padding:6px;
   }
+  .gallery-tile.has-photo{
+    border:1px solid var(--line-strong); padding:0; cursor:pointer; overflow:hidden; transition:.2s;
+  }
+  .gallery-tile.has-photo:hover{border-color:var(--electric);}
+  .gallery-tile.has-photo img{width:100%;height:100%;object-fit:cover;}
   .hero-photo{
     aspect-ratio:4/3;border:1px dashed var(--line-strong);
     display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;
@@ -705,10 +710,7 @@
     </button>
   </div>
   <h2 class="dossier-title" id="dTitle">Project Name</h2>
-  <div class="hero-photo" id="dHeroPhoto">
-    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="3.5"/><path d="M8 6l1.5-2h5L16 6"/></svg>
-    <span id="dHeroPhotoLabel">Photo pending</span>
-  </div>
+  <div class="gallery-grid" id="dGallery" style="margin-bottom:36px;"></div>
   <div id="dMetaWrap">
     <div class="dossier-meta">
       <div><span data-i18n="d_label_type">Type</span><b id="dType">—</b></div>
@@ -825,8 +827,7 @@
   const dossier = document.getElementById('dossier');
   const dossierBackdrop = document.getElementById('dossierBackdrop');
   const dMetaWrap = document.getElementById('dMetaWrap');
-  const dHeroPhoto = document.getElementById('dHeroPhoto');
-  const dHeroPhotoLabel = document.getElementById('dHeroPhotoLabel');
+  const dGallery = document.getElementById('dGallery');
 
   function openDossier(kind, i){
     const item = kind === 'client' ? clients[i] : projects[i];
@@ -847,10 +848,24 @@
       dMetaWrap.style.display = '';
     }
 
-    if(item.photo){
-      dHeroPhoto.innerHTML = '<img src="' + item.photo + '" alt="' + item.name + '">';
+    const photos = (item.photos && item.photos.length) ? item.photos : [];
+    dGallery.innerHTML = '';
+    if(photos.length){
+      photos.forEach(src=>{
+        const tile = document.createElement('div');
+        tile.className = 'gallery-tile has-photo';
+        tile.innerHTML = '<img src="' + src + '" alt="' + item.name + '">';
+        tile.addEventListener('click', ()=>{
+          lightboxImg.src = src;
+          lightbox.classList.add('open');
+        });
+        dGallery.appendChild(tile);
+      });
     } else {
-      dHeroPhoto.innerHTML = '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="3.5"/><path d="M8 6l1.5-2h5L16 6"/></svg><span>' + photoPending + '</span>';
+      const tile = document.createElement('div');
+      tile.className = 'gallery-tile';
+      tile.innerHTML = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="3.5"/><path d="M8 6l1.5-2h5L16 6"/></svg><span>' + photoPending + '</span>';
+      dGallery.appendChild(tile);
     }
 
     dossier.classList.add('open');

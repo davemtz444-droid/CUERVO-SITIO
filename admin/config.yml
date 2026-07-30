@@ -15,7 +15,8 @@ collections:
         fields:
           - {label: "Clientes", name: "clients", widget: "list", label_singular: "Cliente", fields: [
               {label: "Nombre", name: "name", widget: "string"},
-              {label: "Foto", name: "photo", widget: "image", required: false, choose_url: false},
+              {label: "Fotos", name: "photos", widget: "list", label_singular: "Foto", required: false,
+                field: {label: "Imagen", name: "image", widget: "image", choose_url: false}},
             ]}
 
   - name: "projects"
@@ -30,5 +31,6 @@ collections:
               {label: "Tipo", name: "type", widget: "select", options: ["Festival", "Show", "Tour", "Otro"], default: "Festival"},
               {label: "Ubicación", name: "loc", widget: "string", required: false, hint: "Ej. Monterrey, MX"},
               {label: "Año", name: "year", widget: "string", required: false},
-              {label: "Foto", name: "photo", widget: "image", required: false, choose_url: false},
+              {label: "Fotos", name: "photos", widget: "list", label_singular: "Foto", required: false,
+                field: {label: "Imagen", name: "image", widget: "image", choose_url: false}},
             ]}
