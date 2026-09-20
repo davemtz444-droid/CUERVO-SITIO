@@ -2,59 +2,87 @@
   "clients": [
     {
       "name": "Ocesa",
-      "photos": []
+      "photos": [
+        "/images/uploads/img_1856.png"
+      ]
     },
     {
       "name": "Live Nation",
-      "photos": []
+      "photos": [
+        "/images/uploads/img_1857.webp"
+      ]
     },
     {
       "name": "Apodaca Group",
-      "photos": []
+      "photos": [
+        "/images/uploads/img_1858.png"
+      ]
     },
     {
       "name": "FIFA World Cup",
-      "photos": []
+      "photos": [
+        "/images/uploads/img_1859.png"
+      ]
     },
     {
       "name": "Insomniac",
-      "photos": []
+      "photos": [
+        "/images/uploads/img_1860.webp"
+      ]
     },
     {
       "name": "Blu Mar Events",
-      "photos": []
+      "photos": [
+        "/images/uploads/img_1861.jpeg"
+      ]
     },
     {
       "name": "Serca Music",
-      "photos": []
+      "photos": [
+        "/images/uploads/img_1862.png"
+      ]
     },
     {
       "name": "PrimeTime México",
-      "photos": []
+      "photos": [
+        "/images/uploads/img_1863.jpeg"
+      ]
     },
     {
       "name": "Tigres Del Norte",
-      "photos": []
+      "photos": [
+        "/images/uploads/img_1864.png"
+      ]
     },
     {
       "name": "Caifanes",
-      "photos": []
+      "photos": [
+        "/images/uploads/img_1865.png"
+      ]
     },
     {
       "name": "Manuel Turizo",
-      "photos": []
+      "photos": [
+        "/images/uploads/img_1866.jpeg"
+      ]
     },
     {
       "name": "Grupo La Leyenda",
-      "photos": []
+      "photos": [
+        "/images/uploads/img_1867.jpeg"
+      ]
     },
     {
       "name": "Los Herederos De Nuevo León",
-      "photos": []
+      "photos": [
+        "/images/uploads/img_1868.jpeg"
+      ]
     },
     {
       "name": "El Malilla",
-      "photos": []
+      "photos": [
+        "/images/uploads/img_1869.png"
+      ]
     }
   ]
 }
